@@ -32,7 +32,7 @@ if (isset($_POST['action'])) {
           die(print_r($db->errorInfo(), true));
         }
       }
-
+ 
       header('Location: '.BASE_URL);
       die();
 
